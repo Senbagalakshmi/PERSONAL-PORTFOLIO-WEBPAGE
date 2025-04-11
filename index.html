@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <!-- Header/Navbar -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Senbagalakshmi</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="section hero">
+    <h2>Hello, I'm <span>SENBAGALAKSHMI</span></h2>
+    <p>A passionate web developer and software enthusiast.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a final-year Computer Science student with a passion for full-stack development and creating engaging web experiences. Currently doing an internship at CODTECH where I work on real-time chat apps using Django and React.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Real-Time Chat App</h3>
+        <p>Built using Django Channels and React with Socket.IO for real-time messaging.</p>
+        <a href="#">GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>INTERACTIVE QUIZ APPLICATION</h3>
+        <p>As part of my internship at CODTECH, I have developed an Interactive Quiz Application using:
+
+            <ul>HTML for structuring the content.</ul>
+            
+            <ul>CSS for designing the layout and styling.</ul>
+            
+            <ul>JavaScript for implementing the quiz logic and handling interactivity.</ul>
+            
+            </p>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Flask, Django</li>
+      <li>Python, Java</li>
+      <li>Git, GitHub, MySQL</li>
+    </ul>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <p>You can download my resume below:</p>
+    <a href="{{ url_for('static', filename='Resume_semba.pdf') }}" class="btn" download>Download Resume</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: senba2004@gmail.com</p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/Senbagalakshmi</a></p>
+    <p>GitHub: <a href="#">https://github.com/Senbagalakshmi</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Senbagalakshmi. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
