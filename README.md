@@ -34,3 +34,10 @@ Git and GitHub for version control
 
 # output
 
+![Image](https://github.com/user-attachments/assets/3ee531f4-0bcf-4a10-821e-a3da2fc78df9)
+
+![Image](https://github.com/user-attachments/assets/4a7d0745-c764-49de-8c91-9b4800770c14)
+
+![Image](https://github.com/user-attachments/assets/b7e90078-5b06-42df-83c6-535c8d28d3cd)
+
+![Image](https://github.com/user-attachments/assets/61e812da-9db4-4e8c-93ba-925fefcb9ff9)
